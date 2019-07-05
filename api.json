@@ -14,6 +14,16 @@
       "id": 3,
       "username": "ard97",
       "password": "qwerty97"
+    },
+    {
+      "username": "root",
+      "password": "root",
+      "id": 4
+    },
+    {
+      "username": "username",
+      "password": "username",
+      "id": 5
     }
   ],
   "movies": [
@@ -26,11 +36,13 @@
       "plot": "When a new toy called Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
       "playingAt": [
         9,
-        20,
-        22
+        14,
+        16,
+        20
       ],
       "director": "Josh Cooley",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg"
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
+      "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE"
     },
     {
       "id": 3,
@@ -44,7 +56,8 @@
         22
       ],
       "director": "Gary Dauberman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmI4NDNiMmQtZTFkYi00ZDVmLThlYTAtMWJlMjU1M2I2ZmViXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg"
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmI4NDNiMmQtZTFkYi00ZDVmLThlYTAtMWJlMjU1M2I2ZmViXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
+      "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs"
     },
     {
       "id": 4,
@@ -59,7 +72,8 @@
         22
       ],
       "director": "Chad Stahelski",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg"
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
+      "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do"
     },
     {
       "id": 5,
@@ -74,7 +88,8 @@
         16
       ],
       "director": "Brian Lynch",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzdlMWQzZmItMDA5Ny00MGFjLTk0MDAtYjgzMmMyNTEwMzdhXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_SX300.jpg"
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzdlMWQzZmItMDA5Ny00MGFjLTk0MDAtYjgzMmMyNTEwMzdhXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_SX300.jpg",
+      "linkTrailer": "https://www.youtube.com/watch?v=TGN6KAjo_g8"
     },
     {
       "id": 6,
@@ -89,7 +104,8 @@
         16
       ],
       "director": "Viva Westi",
-      "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/155833340228800_300x430.jpg"
+      "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/155833340228800_300x430.jpg",
+      "linkTrailer": "https://www.youtube.com/watch?v=pMvqr3M91UE"
     },
     {
       "title": "Guardians of the Galaxy Vol. 2",
@@ -105,7 +121,8 @@
       ],
       "director": "James Gunn",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
-      "id": 7
+      "id": 7,
+      "linkTrailer": "https://www.youtube.com/watch?v=dW1BIid8Osg"
     },
     {
       "title": "SPIDER-MAN: FAR FROM HOME",
@@ -121,7 +138,25 @@
       ],
       "director": "Jon Watts",
       "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/156092929368934_452x647.jpg",
-      "id": 8
+      "id": 8,
+      "linkTrailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE"
+    },
+    {
+      "title": "MEN IN BLACK: INTERNATIONAL",
+      "rated": "R-13",
+      "runtime": 115,
+      "genre": "Action",
+      "plot": "Men in Black selalu melindungi Bumi dari ancaman alam semesta. Dalam petualangan baru ini, Agen H (Chris Hemsworth) dan rekannya agen M (Tessa Thompson) menangani kasus terbesarnya saat spesies maut bernama Hive mengancam organisasi Men in Black.",
+      "playingAt": [
+        9,
+        14,
+        16,
+        20
+      ],
+      "director": "F. Gary Gray",
+      "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/15601528435034_300x430.jpg",
+      "id": 9,
+      "linkTrailer": "https://www.youtube.com/watch?v=BV-WEb2oxLk"
     }
   ]
 }
