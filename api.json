@@ -24,6 +24,11 @@
       "username": "username",
       "password": "username",
       "id": 5
+    },
+    {
+      "username": "MisterMovie",
+      "password": "admin123",
+      "id": 6
     }
   ],
   "movies": [
@@ -37,12 +42,12 @@
       "playingAt": [
         9,
         14,
-        16,
-        20
+        16
       ],
       "director": "Josh Cooley",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
-      "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE"
+      "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE",
+      "directorImage": "https://upload.wikimedia.org/wikipedia/en/b/bc/Josh-cooley-63.2.jpg"
     },
     {
       "id": 3,
@@ -57,7 +62,8 @@
       ],
       "director": "Gary Dauberman",
       "poster": "https://m.media-amazon.com/images/M/MV5BYmI4NDNiMmQtZTFkYi00ZDVmLThlYTAtMWJlMjU1M2I2ZmViXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
-      "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs"
+      "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs",
+      "directorImage": "https://cdn-images-1.medium.com/max/1200/1*JVSkyWa-fHtXSSclm7gNCg.jpeg"
     },
     {
       "id": 4,
@@ -73,7 +79,8 @@
       ],
       "director": "Chad Stahelski",
       "poster": "https://m.media-amazon.com/images/M/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
-      "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do"
+      "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do",
+      "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chad_Stahelski.jpg/220px-Chad_Stahelski.jpg"
     },
     {
       "id": 5,
@@ -89,7 +96,8 @@
       ],
       "director": "Brian Lynch",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzdlMWQzZmItMDA5Ny00MGFjLTk0MDAtYjgzMmMyNTEwMzdhXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_SX300.jpg",
-      "linkTrailer": "https://www.youtube.com/watch?v=TGN6KAjo_g8"
+      "linkTrailer": "https://www.youtube.com/watch?v=TGN6KAjo_g8",
+      "directorImage": "https://pmcvariety.files.wordpress.com/2019/06/screenwriter-brian-lynch.jpg?w=1000"
     },
     {
       "id": 6,
@@ -105,7 +113,8 @@
       ],
       "director": "Viva Westi",
       "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/155833340228800_300x430.jpg",
-      "linkTrailer": "https://www.youtube.com/watch?v=pMvqr3M91UE"
+      "linkTrailer": "https://www.youtube.com/watch?v=pMvqr3M91UE",
+      "directorImage": "http://cdn2.tstatic.net/tribunnews/foto/images/preview/20130906_viva-westi-sutradara-film-soekarno_4485.jpg"
     },
     {
       "title": "Guardians of the Galaxy Vol. 2",
@@ -122,7 +131,8 @@
       "director": "James Gunn",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
       "id": 7,
-      "linkTrailer": "https://www.youtube.com/watch?v=dW1BIid8Osg"
+      "linkTrailer": "https://www.youtube.com/watch?v=dW1BIid8Osg",
+      "directorImage": "http://www.gstatic.com/tv/thumb/persons/224931/224931_v9_bb.jpg"
     },
     {
       "title": "SPIDER-MAN: FAR FROM HOME",
@@ -139,7 +149,8 @@
       "director": "Jon Watts",
       "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/156092929368934_452x647.jpg",
       "id": 8,
-      "linkTrailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE"
+      "linkTrailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
+      "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jon_Watts_by_Gage_Skidmore_2.jpg/220px-Jon_Watts_by_Gage_Skidmore_2.jpg"
     },
     {
       "title": "MEN IN BLACK: INTERNATIONAL",
@@ -156,7 +167,8 @@
       "director": "F. Gary Gray",
       "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/15601528435034_300x430.jpg",
       "id": 9,
-      "linkTrailer": "https://www.youtube.com/watch?v=BV-WEb2oxLk"
+      "linkTrailer": "https://www.youtube.com/watch?v=BV-WEb2oxLk",
+      "directorImage": "http://www.gstatic.com/tv/thumb/persons/151371/151371_v9_bb.jpg"
     }
   ]
 }
