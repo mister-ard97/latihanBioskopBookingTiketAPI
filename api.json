@@ -3,32 +3,145 @@
     {
       "id": 1,
       "username": "reza",
-      "password": "12345"
+      "password": "12345",
+      "transaction": [
+        {
+          "title": "Toy Story 4",
+          "qty": 1,
+          "total": 35000
+        }
+      ]
     },
     {
       "id": 2,
       "username": "mister",
-      "password": "qwerty"
+      "password": "qwerty",
+      "transaction": [
+        {
+          "title": "Toy Story 4",
+          "qty": 1,
+          "total": 35000
+        }
+      ]
     },
     {
       "id": 3,
       "username": "ard97",
-      "password": "qwerty97"
+      "password": "qwerty97",
+      "transaction": []
     },
     {
       "username": "root",
       "password": "root",
-      "id": 4
+      "id": 4,
+      "transaction": [
+        {
+          "title": "Toy Story 4",
+          "qty": 4,
+          "total": 140000
+        },
+        {
+          "title": "Annabelle Comes Home",
+          "qty": 2,
+          "total": 70000
+        },
+        {
+          "title": "John Wick: Chapter 3 - Parabellum",
+          "qty": 2,
+          "total": 70000
+        },
+        {
+          "title": "John Wick: Chapter 3 - Parabellum",
+          "qty": 2,
+          "total": 70000
+        },
+        {
+          "title": "John Wick: Chapter 3 - Parabellum",
+          "qty": 1,
+          "total": 35000
+        },
+        {
+          "title": "Annabelle Comes Home",
+          "qty": 1,
+          "total": 35000
+        }
+      ]
     },
     {
       "username": "username",
       "password": "username",
-      "id": 5
+      "id": 5,
+      "transaction": []
     },
     {
       "username": "MisterMovie",
       "password": "admin123",
-      "id": 6
+      "id": 6,
+      "transaction": []
+    },
+    {
+      "username": "Reza123",
+      "password": "12345",
+      "id": 7,
+      "transaction": []
+    },
+    {
+      "username": "Reza1234",
+      "password": "12345",
+      "id": 8,
+      "transaction": []
+    },
+    {
+      "username": "reza123",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "username": "reza123",
+      "password": "12345",
+      "id": 10
+    },
+    {
+      "username": "rezaqwe",
+      "password": "qwer",
+      "transaction": [],
+      "id": 11
+    },
+    {
+      "username": "rezaqwer",
+      "password": "qwer",
+      "transaction": [
+        {
+          "title": "Toy Story 4",
+          "qty": 1,
+          "total": 35000
+        }
+      ],
+      "id": 12
+    },
+    {
+      "username": "user123",
+      "password": "1234",
+      "transaction": [],
+      "id": 13
+    },
+    {
+      "username": "user1234",
+      "password": "1234",
+      "transaction": [],
+      "id": 14
+    },
+    {
+      "username": "root123",
+      "password": "12345",
+      "transaction": [],
+      "id": 15
+    },
+    {
+      "username": "user123456",
+      "password": "12345",
+      "transaction": [],
+      "id": 16
     }
   ],
   "movies": [
@@ -47,7 +160,78 @@
       "director": "Josh Cooley",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE",
-      "directorImage": "https://upload.wikimedia.org/wikipedia/en/b/bc/Josh-cooley-63.2.jpg"
+      "directorImage": "https://upload.wikimedia.org/wikipedia/en/b/bc/Josh-cooley-63.2.jpg",
+      "seats": 80,
+      "booked": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          13
+        ]
+      ]
     },
     {
       "id": 3,
@@ -63,7 +247,34 @@
       "director": "Gary Dauberman",
       "poster": "https://m.media-amazon.com/images/M/MV5BYmI4NDNiMmQtZTFkYi00ZDVmLThlYTAtMWJlMjU1M2I2ZmViXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs",
-      "directorImage": "https://cdn-images-1.medium.com/max/1200/1*JVSkyWa-fHtXSSclm7gNCg.jpeg"
+      "directorImage": "https://cdn-images-1.medium.com/max/1200/1*JVSkyWa-fHtXSSclm7gNCg.jpeg",
+      "seats": 93,
+      "booked": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          2,
+          9
+        ]
+      ]
     },
     {
       "id": 4,
@@ -80,7 +291,22 @@
       "director": "Chad Stahelski",
       "poster": "https://m.media-amazon.com/images/M/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do",
-      "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chad_Stahelski.jpg/220px-Chad_Stahelski.jpg"
+      "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chad_Stahelski.jpg/220px-Chad_Stahelski.jpg",
+      "seats": 98,
+      "booked": [
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ]
+      ]
     },
     {
       "id": 5,
@@ -97,7 +323,9 @@
       "director": "Brian Lynch",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzdlMWQzZmItMDA5Ny00MGFjLTk0MDAtYjgzMmMyNTEwMzdhXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=TGN6KAjo_g8",
-      "directorImage": "https://pmcvariety.files.wordpress.com/2019/06/screenwriter-brian-lynch.jpg?w=1000"
+      "directorImage": "https://pmcvariety.files.wordpress.com/2019/06/screenwriter-brian-lynch.jpg?w=1000",
+      "seats": 100,
+      "booked": []
     },
     {
       "id": 6,
@@ -114,7 +342,9 @@
       "director": "Viva Westi",
       "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/155833340228800_300x430.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=pMvqr3M91UE",
-      "directorImage": "http://cdn2.tstatic.net/tribunnews/foto/images/preview/20130906_viva-westi-sutradara-film-soekarno_4485.jpg"
+      "directorImage": "http://cdn2.tstatic.net/tribunnews/foto/images/preview/20130906_viva-westi-sutradara-film-soekarno_4485.jpg",
+      "seats": 100,
+      "booked": []
     },
     {
       "title": "Guardians of the Galaxy Vol. 2",
@@ -132,7 +362,9 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
       "id": 7,
       "linkTrailer": "https://www.youtube.com/watch?v=dW1BIid8Osg",
-      "directorImage": "http://www.gstatic.com/tv/thumb/persons/224931/224931_v9_bb.jpg"
+      "directorImage": "http://www.gstatic.com/tv/thumb/persons/224931/224931_v9_bb.jpg",
+      "seats": 100,
+      "booked": []
     },
     {
       "title": "SPIDER-MAN: FAR FROM HOME",
@@ -150,7 +382,9 @@
       "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/156092929368934_452x647.jpg",
       "id": 8,
       "linkTrailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
-      "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jon_Watts_by_Gage_Skidmore_2.jpg/220px-Jon_Watts_by_Gage_Skidmore_2.jpg"
+      "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jon_Watts_by_Gage_Skidmore_2.jpg/220px-Jon_Watts_by_Gage_Skidmore_2.jpg",
+      "seats": 100,
+      "booked": []
     },
     {
       "title": "MEN IN BLACK: INTERNATIONAL",
@@ -168,7 +402,9 @@
       "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/15601528435034_300x430.jpg",
       "id": 9,
       "linkTrailer": "https://www.youtube.com/watch?v=BV-WEb2oxLk",
-      "directorImage": "http://www.gstatic.com/tv/thumb/persons/151371/151371_v9_bb.jpg"
+      "directorImage": "http://www.gstatic.com/tv/thumb/persons/151371/151371_v9_bb.jpg",
+      "seats": 100,
+      "booked": []
     }
   ]
 }
