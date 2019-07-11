@@ -4,25 +4,13 @@
       "id": 1,
       "username": "reza",
       "password": "12345",
-      "transaction": [
-        {
-          "title": "Toy Story 4",
-          "qty": 1,
-          "total": 35000
-        }
-      ]
+      "transaction": []
     },
     {
       "id": 2,
       "username": "mister",
       "password": "qwerty",
-      "transaction": [
-        {
-          "title": "Toy Story 4",
-          "qty": 1,
-          "total": 35000
-        }
-      ]
+      "transaction": []
     },
     {
       "id": 3,
@@ -34,38 +22,7 @@
       "username": "root",
       "password": "root",
       "id": 4,
-      "transaction": [
-        {
-          "title": "Toy Story 4",
-          "qty": 4,
-          "total": 140000
-        },
-        {
-          "title": "Annabelle Comes Home",
-          "qty": 2,
-          "total": 70000
-        },
-        {
-          "title": "John Wick: Chapter 3 - Parabellum",
-          "qty": 2,
-          "total": 70000
-        },
-        {
-          "title": "John Wick: Chapter 3 - Parabellum",
-          "qty": 2,
-          "total": 70000
-        },
-        {
-          "title": "John Wick: Chapter 3 - Parabellum",
-          "qty": 1,
-          "total": 35000
-        },
-        {
-          "title": "Annabelle Comes Home",
-          "qty": 1,
-          "total": 35000
-        }
-      ]
+      "transaction": []
     },
     {
       "username": "username",
@@ -88,17 +45,19 @@
     {
       "username": "Reza1234",
       "password": "12345",
-      "id": 8,
-      "transaction": []
+      "transaction": [],
+      "id": 8
     },
     {
       "username": "reza123",
       "password": "12345",
+      "transaction": [],
       "id": 9
     },
     {
       "username": "reza123",
       "password": "12345",
+      "transaction": [],
       "id": 10
     },
     {
@@ -110,13 +69,7 @@
     {
       "username": "rezaqwer",
       "password": "qwer",
-      "transaction": [
-        {
-          "title": "Toy Story 4",
-          "qty": 1,
-          "total": 35000
-        }
-      ],
+      "transaction": [],
       "id": 12
     },
     {
@@ -138,9 +91,10 @@
       "id": 15
     },
     {
-      "username": "user123456",
-      "password": "12345",
+      "username": "adminRoot",
+      "password": "admin",
       "transaction": [],
+      "role": "admin",
       "id": 16
     }
   ],
@@ -161,77 +115,8 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE",
       "directorImage": "https://upload.wikimedia.org/wikipedia/en/b/bc/Josh-cooley-63.2.jpg",
-      "seats": 80,
-      "booked": [
-        [
-          0,
-          6
-        ],
-        [
-          0,
-          7
-        ],
-        [
-          0,
-          8
-        ],
-        [
-          0,
-          2
-        ],
-        [
-          0,
-          3
-        ],
-        [
-          3,
-          6
-        ],
-        [
-          3,
-          7
-        ],
-        [
-          2,
-          6
-        ],
-        [
-          1,
-          13
-        ],
-        [
-          1,
-          14
-        ],
-        [
-          4,
-          4
-        ],
-        [
-          3,
-          16
-        ],
-        [
-          2,
-          8
-        ],
-        [
-          2,
-          10
-        ],
-        [
-          2,
-          11
-        ],
-        [
-          2,
-          12
-        ],
-        [
-          2,
-          13
-        ]
-      ]
+      "seats": 100,
+      "booked": []
     },
     {
       "id": 3,
@@ -248,33 +133,8 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BYmI4NDNiMmQtZTFkYi00ZDVmLThlYTAtMWJlMjU1M2I2ZmViXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs",
       "directorImage": "https://cdn-images-1.medium.com/max/1200/1*JVSkyWa-fHtXSSclm7gNCg.jpeg",
-      "seats": 93,
-      "booked": [
-        [
-          0,
-          1
-        ],
-        [
-          1,
-          1
-        ],
-        [
-          2,
-          1
-        ],
-        [
-          0,
-          8
-        ],
-        [
-          0,
-          9
-        ],
-        [
-          2,
-          9
-        ]
-      ]
+      "seats": 100,
+      "booked": []
     },
     {
       "id": 4,
@@ -292,21 +152,8 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do",
       "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chad_Stahelski.jpg/220px-Chad_Stahelski.jpg",
-      "seats": 98,
-      "booked": [
-        [
-          0,
-          7
-        ],
-        [
-          0,
-          8
-        ],
-        [
-          0,
-          9
-        ]
-      ]
+      "seats": 100,
+      "booked": []
     },
     {
       "id": 5,
