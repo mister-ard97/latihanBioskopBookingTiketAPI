@@ -22,7 +22,36 @@
       "username": "root",
       "password": "root",
       "id": 4,
-      "transaction": []
+      "transaction": [
+        [
+          {
+            "idMovie": 2,
+            "titleMovie": "Toy Story 4",
+            "bookedSeat": "A1",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ]
+            ],
+            "price": 30000
+          }
+        ],
+        [
+          {
+            "idMovie": 3,
+            "titleMovie": "Annabelle Comes Home",
+            "bookedSeat": "A1",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ]
+            ],
+            "price": 30000
+          }
+        ]
+      ]
     },
     {
       "username": "username",
@@ -81,13 +110,136 @@
     {
       "username": "user1234",
       "password": "1234",
-      "transaction": [],
-      "id": 14
-    },
-    {
-      "username": "root123",
-      "password": "12345",
-      "transaction": [],
+      "transaction": [
+        [
+          {
+            "idMovie": 2,
+            "titleMovie": "Toy Story 4",
+            "bookedSeat": "A2",
+            "bookedPosition": [
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 30000
+          }
+        ],
+        [
+          {
+            "idMovie": 4,
+            "titleMovie": "John Wick: Chapter 3 - Parabellum",
+            "bookedSeat": "A1-A2",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 60000
+          }
+        ],
+        [
+          {
+            "idMovie": 5,
+            "titleMovie": "The Secret Life of Pets 2",
+            "bookedSeat": "A1-A2",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 60000
+          }
+        ],
+        [
+          {
+            "idMovie": 2,
+            "titleMovie": "Toy Story 4",
+            "bookedSeat": "A1",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ]
+            ],
+            "price": 30000
+          }
+        ],
+        [
+          {
+            "idMovie": 3,
+            "titleMovie": "Annabelle Comes Home",
+            "bookedSeat": "A2-A3",
+            "bookedPosition": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "price": 60000
+          }
+        ],
+        [
+          {
+            "idMovie": 2,
+            "titleMovie": "Toy Story 4",
+            "bookedSeat": "A2",
+            "bookedPosition": [
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 30000
+          }
+        ],
+        [
+          {
+            "idMovie": 2,
+            "titleMovie": "Toy Story 4",
+            "bookedSeat": "D6-A1",
+            "bookedPosition": [
+              [
+                3,
+                5
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "price": 60000
+          }
+        ],
+        [
+          {
+            "idMovie": 2,
+            "titleMovie": "Toy Story 4",
+            "bookedSeat": "A2",
+            "bookedPosition": [
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 30000
+          }
+        ]
+      ],
       "id": 15
     },
     {
@@ -116,7 +268,12 @@
       "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE",
       "directorImage": "https://upload.wikimedia.org/wikipedia/en/b/bc/Josh-cooley-63.2.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          1
+        ]
+      ]
     },
     {
       "id": 3,
@@ -134,7 +291,16 @@
       "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs",
       "directorImage": "https://cdn-images-1.medium.com/max/1200/1*JVSkyWa-fHtXSSclm7gNCg.jpeg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
     },
     {
       "id": 4,
@@ -153,7 +319,16 @@
       "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do",
       "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chad_Stahelski.jpg/220px-Chad_Stahelski.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
     },
     {
       "id": 5,
@@ -172,7 +347,16 @@
       "linkTrailer": "https://www.youtube.com/watch?v=TGN6KAjo_g8",
       "directorImage": "https://pmcvariety.files.wordpress.com/2019/06/screenwriter-brian-lynch.jpg?w=1000",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
     },
     {
       "id": 6,
