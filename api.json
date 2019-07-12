@@ -4,24 +4,6 @@
       "id": 1,
       "username": "reza",
       "password": "12345",
-      "transaction": []
-    },
-    {
-      "id": 2,
-      "username": "mister",
-      "password": "qwerty",
-      "transaction": []
-    },
-    {
-      "id": 3,
-      "username": "ard97",
-      "password": "qwerty97",
-      "transaction": []
-    },
-    {
-      "username": "root",
-      "password": "1234",
-      "id": 4,
       "transaction": [
         [
           {
@@ -59,14 +41,14 @@
           {
             "idMovie": 4,
             "titleMovie": "John Wick: Chapter 3 - Parabellum",
-            "bookedSeat": "E3-E2",
+            "bookedSeat": "A1-A2",
             "bookedPosition": [
               [
-                4,
-                2
+                0,
+                0
               ],
               [
-                4,
+                0,
                 1
               ]
             ],
@@ -91,14 +73,14 @@
           {
             "idMovie": 7,
             "titleMovie": "Guardians of the Galaxy Vol. 2",
-            "bookedSeat": "D1-D2",
+            "bookedSeat": "A1-A2",
             "bookedPosition": [
               [
-                3,
+                0,
                 0
               ],
               [
-                3,
+                0,
                 1
               ]
             ],
@@ -137,11 +119,29 @@
             "price": 60000
           },
           {
-            "transactionTime": "12-July-2019 : 17:5:29",
+            "transactionTime": "12-July-2019 : 17:28:30",
             "totalTransaction": 420000
           }
         ]
       ]
+    },
+    {
+      "id": 2,
+      "username": "mister",
+      "password": "qwerty",
+      "transaction": []
+    },
+    {
+      "id": 3,
+      "username": "ard97",
+      "password": "qwerty97",
+      "transaction": []
+    },
+    {
+      "username": "root",
+      "password": "1234",
+      "id": 4,
+      "transaction": []
     },
     {
       "username": "username",
@@ -292,11 +292,11 @@
       "seats": 100,
       "booked": [
         [
-          4,
-          2
+          0,
+          0
         ],
         [
-          4,
+          0,
           1
         ]
       ]
@@ -349,11 +349,11 @@
       "seats": 100,
       "booked": [
         [
-          3,
+          0,
           0
         ],
         [
-          3,
+          0,
           1
         ]
       ]
