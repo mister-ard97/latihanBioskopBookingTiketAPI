@@ -20,35 +20,125 @@
     },
     {
       "username": "root",
-      "password": "root",
+      "password": "1234",
       "id": 4,
       "transaction": [
         [
           {
             "idMovie": 2,
             "titleMovie": "Toy Story 4",
-            "bookedSeat": "A1",
+            "bookedSeat": "A1-A2",
             "bookedPosition": [
               [
                 0,
                 0
+              ],
+              [
+                0,
+                1
               ]
             ],
-            "price": 30000
-          }
-        ],
-        [
+            "price": 60000
+          },
           {
             "idMovie": 3,
             "titleMovie": "Annabelle Comes Home",
-            "bookedSeat": "A1",
+            "bookedSeat": "A1-A2",
             "bookedPosition": [
               [
                 0,
                 0
+              ],
+              [
+                0,
+                1
               ]
             ],
-            "price": 30000
+            "price": 60000
+          },
+          {
+            "idMovie": 4,
+            "titleMovie": "John Wick: Chapter 3 - Parabellum",
+            "bookedSeat": "E3-E2",
+            "bookedPosition": [
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "price": 60000
+          },
+          {
+            "idMovie": 6,
+            "titleMovie": "KOKI-KOKI CILIK 2",
+            "bookedSeat": "A1-A2",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 60000
+          },
+          {
+            "idMovie": 7,
+            "titleMovie": "Guardians of the Galaxy Vol. 2",
+            "bookedSeat": "D1-D2",
+            "bookedPosition": [
+              [
+                3,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "price": 60000
+          },
+          {
+            "idMovie": 8,
+            "titleMovie": "SPIDER-MAN: FAR FROM HOME",
+            "bookedSeat": "A1-A2",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 60000
+          },
+          {
+            "idMovie": 9,
+            "titleMovie": "MEN IN BLACK: INTERNATIONAL",
+            "bookedSeat": "A1-A2",
+            "bookedPosition": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "price": 60000
+          },
+          {
+            "transactionTime": "12-July-2019 : 17:5:29",
+            "totalTransaction": 420000
           }
         ]
       ]
@@ -110,136 +200,13 @@
     {
       "username": "user1234",
       "password": "1234",
-      "transaction": [
-        [
-          {
-            "idMovie": 2,
-            "titleMovie": "Toy Story 4",
-            "bookedSeat": "A2",
-            "bookedPosition": [
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 30000
-          }
-        ],
-        [
-          {
-            "idMovie": 4,
-            "titleMovie": "John Wick: Chapter 3 - Parabellum",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          }
-        ],
-        [
-          {
-            "idMovie": 5,
-            "titleMovie": "The Secret Life of Pets 2",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          }
-        ],
-        [
-          {
-            "idMovie": 2,
-            "titleMovie": "Toy Story 4",
-            "bookedSeat": "A1",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ]
-            ],
-            "price": 30000
-          }
-        ],
-        [
-          {
-            "idMovie": 3,
-            "titleMovie": "Annabelle Comes Home",
-            "bookedSeat": "A2-A3",
-            "bookedPosition": [
-              [
-                0,
-                1
-              ],
-              [
-                0,
-                2
-              ]
-            ],
-            "price": 60000
-          }
-        ],
-        [
-          {
-            "idMovie": 2,
-            "titleMovie": "Toy Story 4",
-            "bookedSeat": "A2",
-            "bookedPosition": [
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 30000
-          }
-        ],
-        [
-          {
-            "idMovie": 2,
-            "titleMovie": "Toy Story 4",
-            "bookedSeat": "D6-A1",
-            "bookedPosition": [
-              [
-                3,
-                5
-              ],
-              [
-                0,
-                0
-              ]
-            ],
-            "price": 60000
-          }
-        ],
-        [
-          {
-            "idMovie": 2,
-            "titleMovie": "Toy Story 4",
-            "bookedSeat": "A2",
-            "bookedPosition": [
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 30000
-          }
-        ]
-      ],
+      "transaction": [],
+      "id": 14
+    },
+    {
+      "username": "root123",
+      "password": "12345",
+      "transaction": [],
       "id": 15
     },
     {
@@ -271,6 +238,10 @@
       "booked": [
         [
           0,
+          0
+        ],
+        [
+          0,
           1
         ]
       ]
@@ -294,11 +265,11 @@
       "booked": [
         [
           0,
-          1
+          0
         ],
         [
           0,
-          2
+          1
         ]
       ]
     },
@@ -321,39 +292,11 @@
       "seats": 100,
       "booked": [
         [
-          0,
-          0
+          4,
+          2
         ],
         [
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "id": 5,
-      "title": "The Secret Life of Pets 2",
-      "rated": "PG",
-      "runtime": 86,
-      "genre": "Animation",
-      "plot": "Continuing the story of Max and his pet friends, following their secret lives after their owners leave them for work or school each day.",
-      "playingAt": [
-        9,
-        14,
-        16
-      ],
-      "director": "Brian Lynch",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzdlMWQzZmItMDA5Ny00MGFjLTk0MDAtYjgzMmMyNTEwMzdhXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_SX300.jpg",
-      "linkTrailer": "https://www.youtube.com/watch?v=TGN6KAjo_g8",
-      "directorImage": "https://pmcvariety.files.wordpress.com/2019/06/screenwriter-brian-lynch.jpg?w=1000",
-      "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
+          4,
           1
         ]
       ]
@@ -375,7 +318,16 @@
       "linkTrailer": "https://www.youtube.com/watch?v=pMvqr3M91UE",
       "directorImage": "http://cdn2.tstatic.net/tribunnews/foto/images/preview/20130906_viva-westi-sutradara-film-soekarno_4485.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
     },
     {
       "title": "Guardians of the Galaxy Vol. 2",
@@ -395,7 +347,16 @@
       "linkTrailer": "https://www.youtube.com/watch?v=dW1BIid8Osg",
       "directorImage": "http://www.gstatic.com/tv/thumb/persons/224931/224931_v9_bb.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
     },
     {
       "title": "SPIDER-MAN: FAR FROM HOME",
@@ -415,7 +376,16 @@
       "linkTrailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
       "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jon_Watts_by_Gage_Skidmore_2.jpg/220px-Jon_Watts_by_Gage_Skidmore_2.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
     },
     {
       "title": "MEN IN BLACK: INTERNATIONAL",
@@ -435,7 +405,16 @@
       "linkTrailer": "https://www.youtube.com/watch?v=BV-WEb2oxLk",
       "directorImage": "http://www.gstatic.com/tv/thumb/persons/151371/151371_v9_bb.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
     }
   ]
 }
