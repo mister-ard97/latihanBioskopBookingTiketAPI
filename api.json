@@ -122,6 +122,72 @@
             "transactionTime": "12-July-2019 : 17:28:30",
             "totalTransaction": 420000
           }
+        ],
+        [
+          {
+            "idMovie": 3,
+            "titleMovie": "Annabelle Comes Home",
+            "bookedSeat": "A10-A9",
+            "bookedPosition": [
+              [
+                0,
+                9
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            "price": 60000
+          },
+          {
+            "idMovie": 9,
+            "titleMovie": "MEN IN BLACK: INTERNATIONAL",
+            "bookedSeat": "A6-A7",
+            "bookedPosition": [
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            "price": 60000
+          },
+          {
+            "idMovie": 7,
+            "titleMovie": "Guardians of the Galaxy Vol. 2",
+            "bookedSeat": "A17-A16-A15-A14-A13",
+            "bookedPosition": [
+              [
+                0,
+                16
+              ],
+              [
+                0,
+                15
+              ],
+              [
+                0,
+                14
+              ],
+              [
+                0,
+                13
+              ],
+              [
+                0,
+                12
+              ]
+            ],
+            "price": 150000
+          },
+          {
+            "transactionTime": "13-July-2019 : 12:50:0",
+            "totalTransaction": 270000
+          }
         ]
       ]
     },
@@ -270,6 +336,14 @@
         [
           0,
           1
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          8
         ]
       ]
     },
@@ -355,6 +429,26 @@
         [
           0,
           1
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          12
         ]
       ]
     },
@@ -413,6 +507,14 @@
         [
           0,
           1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
         ]
       ]
     }
