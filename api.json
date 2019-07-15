@@ -4,192 +4,7 @@
       "id": 1,
       "username": "reza",
       "password": "12345",
-      "transaction": [
-        [
-          {
-            "idMovie": 2,
-            "titleMovie": "Toy Story 4",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 3,
-            "titleMovie": "Annabelle Comes Home",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 4,
-            "titleMovie": "John Wick: Chapter 3 - Parabellum",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 6,
-            "titleMovie": "KOKI-KOKI CILIK 2",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 7,
-            "titleMovie": "Guardians of the Galaxy Vol. 2",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 8,
-            "titleMovie": "SPIDER-MAN: FAR FROM HOME",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 9,
-            "titleMovie": "MEN IN BLACK: INTERNATIONAL",
-            "bookedSeat": "A1-A2",
-            "bookedPosition": [
-              [
-                0,
-                0
-              ],
-              [
-                0,
-                1
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "transactionTime": "12-July-2019 : 17:28:30",
-            "totalTransaction": 420000
-          }
-        ],
-        [
-          {
-            "idMovie": 3,
-            "titleMovie": "Annabelle Comes Home",
-            "bookedSeat": "A10-A9",
-            "bookedPosition": [
-              [
-                0,
-                9
-              ],
-              [
-                0,
-                8
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 9,
-            "titleMovie": "MEN IN BLACK: INTERNATIONAL",
-            "bookedSeat": "A6-A7",
-            "bookedPosition": [
-              [
-                0,
-                5
-              ],
-              [
-                0,
-                6
-              ]
-            ],
-            "price": 60000
-          },
-          {
-            "idMovie": 7,
-            "titleMovie": "Guardians of the Galaxy Vol. 2",
-            "bookedSeat": "A17-A16-A15-A14-A13",
-            "bookedPosition": [
-              [
-                0,
-                16
-              ],
-              [
-                0,
-                15
-              ],
-              [
-                0,
-                14
-              ],
-              [
-                0,
-                13
-              ],
-              [
-                0,
-                12
-              ]
-            ],
-            "price": 150000
-          },
-          {
-            "transactionTime": "13-July-2019 : 12:50:0",
-            "totalTransaction": 270000
-          }
-        ]
-      ]
+      "transaction": []
     },
     {
       "id": 2,
@@ -281,6 +96,12 @@
       "transaction": [],
       "role": "admin",
       "id": 16
+    },
+    {
+      "username": "reza1997",
+      "password": "1997",
+      "transaction": [],
+      "id": 17
     }
   ],
   "movies": [
@@ -294,23 +115,15 @@
       "playingAt": [
         9,
         14,
-        16
+        16,
+        20
       ],
-      "director": "Josh Cooley",
+      "director": "Josh Cooleyy",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
       "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE",
       "directorImage": "https://upload.wikimedia.org/wikipedia/en/b/bc/Josh-cooley-63.2.jpg",
       "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          1
-        ]
-      ]
+      "booked": []
     },
     {
       "id": 3,
@@ -328,24 +141,7 @@
       "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs",
       "directorImage": "https://cdn-images-1.medium.com/max/1200/1*JVSkyWa-fHtXSSclm7gNCg.jpeg",
       "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          1
-        ],
-        [
-          0,
-          9
-        ],
-        [
-          0,
-          8
-        ]
-      ]
+      "booked": []
     },
     {
       "id": 4,
@@ -364,16 +160,7 @@
       "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do",
       "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chad_Stahelski.jpg/220px-Chad_Stahelski.jpg",
       "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          1
-        ]
-      ]
+      "booked": []
     },
     {
       "id": 6,
@@ -392,16 +179,7 @@
       "linkTrailer": "https://www.youtube.com/watch?v=pMvqr3M91UE",
       "directorImage": "http://cdn2.tstatic.net/tribunnews/foto/images/preview/20130906_viva-westi-sutradara-film-soekarno_4485.jpg",
       "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          1
-        ]
-      ]
+      "booked": []
     },
     {
       "title": "Guardians of the Galaxy Vol. 2",
@@ -421,36 +199,7 @@
       "linkTrailer": "https://www.youtube.com/watch?v=dW1BIid8Osg",
       "directorImage": "http://www.gstatic.com/tv/thumb/persons/224931/224931_v9_bb.jpg",
       "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          1
-        ],
-        [
-          0,
-          16
-        ],
-        [
-          0,
-          15
-        ],
-        [
-          0,
-          14
-        ],
-        [
-          0,
-          13
-        ],
-        [
-          0,
-          12
-        ]
-      ]
+      "booked": []
     },
     {
       "title": "SPIDER-MAN: FAR FROM HOME",
@@ -470,53 +219,7 @@
       "linkTrailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
       "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jon_Watts_by_Gage_Skidmore_2.jpg/220px-Jon_Watts_by_Gage_Skidmore_2.jpg",
       "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "title": "MEN IN BLACK: INTERNATIONAL",
-      "rated": "R-13",
-      "runtime": 115,
-      "genre": "Action",
-      "plot": "Men in Black selalu melindungi Bumi dari ancaman alam semesta. Dalam petualangan baru ini, Agen H (Chris Hemsworth) dan rekannya agen M (Tessa Thompson) menangani kasus terbesarnya saat spesies maut bernama Hive mengancam organisasi Men in Black.",
-      "playingAt": [
-        9,
-        14,
-        16,
-        20
-      ],
-      "director": "F. Gary Gray",
-      "poster": "https://media.21cineplex.com/webcontent/gallery/pictures/15601528435034_300x430.jpg",
-      "id": 9,
-      "linkTrailer": "https://www.youtube.com/watch?v=BV-WEb2oxLk",
-      "directorImage": "http://www.gstatic.com/tv/thumb/persons/151371/151371_v9_bb.jpg",
-      "seats": 100,
-      "booked": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          1
-        ],
-        [
-          0,
-          5
-        ],
-        [
-          0,
-          6
-        ]
-      ]
+      "booked": []
     }
   ]
 }
