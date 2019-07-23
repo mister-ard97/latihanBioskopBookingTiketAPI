@@ -3,104 +3,87 @@
     {
       "id": 1,
       "username": "reza",
-      "password": "12345",
-      "transaction": []
+      "password": "12345"
     },
     {
       "id": 2,
       "username": "mister",
-      "password": "qwerty",
-      "transaction": []
+      "password": "qwerty"
     },
     {
       "id": 3,
       "username": "ard97",
-      "password": "qwerty97",
-      "transaction": []
+      "password": "qwerty97"
     },
     {
       "username": "root",
       "password": "1234",
-      "id": 4,
-      "transaction": []
+      "id": 4
     },
     {
       "username": "username",
       "password": "username",
-      "id": 5,
-      "transaction": []
+      "id": 5
     },
     {
       "username": "MisterMovie",
       "password": "admin123",
-      "id": 6,
-      "transaction": []
+      "id": 6
     },
     {
       "username": "Reza123",
       "password": "12345",
-      "id": 7,
-      "transaction": []
+      "id": 7
     },
     {
       "username": "Reza1234",
       "password": "12345",
-      "transaction": [],
       "id": 8
     },
     {
       "username": "reza123",
       "password": "12345",
-      "transaction": [],
       "id": 9
     },
     {
       "username": "reza123",
       "password": "12345",
-      "transaction": [],
       "id": 10
     },
     {
       "username": "rezaqwe",
       "password": "qwer",
-      "transaction": [],
       "id": 11
     },
     {
       "username": "rezaqwer",
       "password": "qwer",
-      "transaction": [],
       "id": 12
     },
     {
       "username": "user123",
       "password": "1234",
-      "transaction": [],
       "id": 13
     },
     {
       "username": "user1234",
       "password": "1234",
-      "transaction": [],
       "id": 14
     },
     {
       "username": "root123",
       "password": "12345",
-      "transaction": [],
       "id": 15
     },
     {
       "username": "adminRoot",
       "password": "admin",
-      "transaction": [],
       "role": "admin",
       "id": 16
     },
     {
       "username": "reza1997",
       "password": "1997",
-      "transaction": [],
       "id": 17
     }
   ],
@@ -123,7 +106,12 @@
       "linkTrailer": "https://www.youtube.com/watch?v=wmiIUN-7qhE",
       "directorImage": "https://upload.wikimedia.org/wikipedia/en/b/bc/Josh-cooley-63.2.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ]
+      ]
     },
     {
       "id": 3,
@@ -141,7 +129,12 @@
       "linkTrailer": "https://www.youtube.com/watch?v=bCxm7cTpBAs",
       "directorImage": "https://cdn-images-1.medium.com/max/1200/1*JVSkyWa-fHtXSSclm7gNCg.jpeg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ]
+      ]
     },
     {
       "id": 4,
@@ -160,7 +153,20 @@
       "linkTrailer": "https://www.youtube.com/watch?v=RSXc5z9F7Do",
       "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chad_Stahelski.jpg/220px-Chad_Stahelski.jpg",
       "seats": 100,
-      "booked": []
+      "booked": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
     },
     {
       "id": 6,
@@ -220,6 +226,79 @@
       "directorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jon_Watts_by_Gage_Skidmore_2.jpg/220px-Jon_Watts_by_Gage_Skidmore_2.jpg",
       "seats": 100,
       "booked": []
+    }
+  ],
+  "transaction": [
+    {
+      "codeTransaction": "MistMovTrx201962463451",
+      "userId": 1,
+      "totalSeats": 2,
+      "transactionTime": "24-July-2019 : 6:34:51",
+      "totalTransaction": 60000,
+      "id": 1
+    },
+    {
+      "codeTransaction": "MistMovTrx20196246350",
+      "userId": 1,
+      "totalSeats": 3,
+      "transactionTime": "24-July-2019 : 6:35:0",
+      "totalTransaction": 90000,
+      "id": 2
+    }
+  ],
+  "transactionDetail": [
+    {
+      "idMovie": 2,
+      "titleMovie": "Toy Story 4",
+      "bookedSeat": "A1",
+      "bookedPosition": [
+        [
+          0,
+          0
+        ]
+      ],
+      "price": 30000,
+      "codeTransaction": "MistMovTrx201962463451",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "idMovie": 3,
+      "titleMovie": "Annabelle Comes Home",
+      "bookedSeat": "A1",
+      "bookedPosition": [
+        [
+          0,
+          0
+        ]
+      ],
+      "price": 30000,
+      "codeTransaction": "MistMovTrx201962463451",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "idMovie": 4,
+      "titleMovie": "John Wick: Chapter 3 - Parabellum",
+      "bookedSeat": "A1-A2-A3",
+      "bookedPosition": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "price": 90000,
+      "codeTransaction": "MistMovTrx20196246350",
+      "userId": 1,
+      "id": 3
     }
   ]
 }
